@@ -14,6 +14,6 @@ class UserController extends Controller
         // ORM
         $data['modelUser'] = User::all();
 
-        return view ('index', $data, $modelUser);
+        return view ('index', $data);
     }
 }
